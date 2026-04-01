@@ -1,0 +1,7 @@
+# Ignore the build output from language statistics
+dist/** linguist-vendored
+public/** linguist-vendored
+
+# Ensure TypeScript is recognized as the primary logic
+*.ts linguist-detectable
+*.tsx linguist-detectable

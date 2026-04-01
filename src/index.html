@@ -5,6 +5,14 @@
   <title>JobBoardApp</title>
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <meta http-equiv="Content-Security-Policy" content="
+    default-src 'self' http://localhost:4200; 
+    script-src 'self' 'unsafe-inline' 'unsafe-eval' https://script.google.com https://script.googleusercontent.com; 
+    style-src 'self' 'unsafe-inline'; 
+    connect-src 'self' http://localhost:4200 https://script.google.com https://script.googleusercontent.com;
+  ">
+  
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
