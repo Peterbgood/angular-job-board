@@ -3,7 +3,7 @@
   "version": 1,
   "cli": {
     "packageManager": "npm",
-    "analytics": "8be8e7e6-6211-4631-9505-f416832f33cc"
+    "analytics": "12c41c68-291c-4a56-9f22-62b3ad19a7f2"
   },
   "newProjectRoot": "projects",
   "projects": {
@@ -64,7 +64,7 @@
           "builder": "angular-cli-ghpages:deploy",
           "options": {
             "baseHref": "/angular-job-board/",
-            "dir": "dist/job-board-app/browser"
+            "dir": "dist/job-board-app"
           }
         }
       }
